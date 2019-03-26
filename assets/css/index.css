@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+
+body{
+    background-color: lightgray;
+    margin:0;
+    font-family: 'Overpass', sans-serif;
+}
+.navbar-name{
+    float:left;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.navbar-container{
+    /*background-color: aqua;*/
+    position: absolute;
+    background-color: BLACK;
+    width: 100%;
+}
+
+.navbar-container a{
+    /*background-color: aqua;*/
+    text-decoration: none;
+    color: white;
+}
+
+.links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+.navbar-links ul{
+    float:right;
+}
